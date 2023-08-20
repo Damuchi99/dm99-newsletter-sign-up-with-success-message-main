@@ -17,6 +17,89 @@ body {
     background-color: rgb(54, 56, 78)!important;
 }
 
+.newsletter{
+    border-radius: 30px;
+    background: white;
+    margin: 30px;
+    padding: 40px;
+    color: rgb(36, 39, 66);
+    width: 800px; /*se cambiaria een el js*/
+    height: 550px; /*se cambiaria een el js*/
+    /*width: 400px;
+    height: 425px;*/
+}
+
+/*.sign-up-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+.sign-up-section .sign-up-info{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sign-up-section .sign-up-info h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sign-up-section .sign-up-info p{
+    font-size: 16px;
+}
+
+.sign-up-section .sign-up-info dt{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.sign-up-section .sign-up-info dt span{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sign-up-section .sign-up-info .formulario{
+    margin-top: 40px;
+}
+
+.sign-up-section .sign-up-info .formulario .form-label{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.sign-up-section .sign-up-info .formulario .form-control{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.sign-up-section .sign-up-info .subscribe-button{
+    background-color: rgb(36, 39, 66);
+    color: white;
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*.sign-up-section .img-sign-up svg{
+    max-width: auto!important;
+    max-height: auto!important;
+}*/
+
+/*.success-sign-up-section{
+    
+}*/
 
 
 
