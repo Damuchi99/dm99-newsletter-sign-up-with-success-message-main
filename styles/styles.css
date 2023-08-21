@@ -21,23 +21,21 @@ body {
     border-radius: 30px;
     background: white;
     margin: 30px;
-    padding: 40px;
     color: rgb(36, 39, 66);
-    width: 800px; /*se cambiaria een el js*/
-    height: 550px; /*se cambiaria een el js*/
-    /*width: 400px;
-    height: 425px;*/
 }
 
-/*.sign-up-section{
-    display: flex;
+.row{
     align-items: center;
-    justify-content: space-between;
-}*/
+}
+
+.sign-up-section{
+    width: 850px;
+    height: 550px;
+    padding: 20px;
+}
 
 .sign-up-section .sign-up-info{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0px 30px 30px;
 }
 
 .sign-up-section .sign-up-info h1{
@@ -78,7 +76,7 @@ body {
     border-radius: 10px;
 }
 
-.sign-up-section .sign-up-info .subscribe-button{
+.sign-up-section .sign-up-info .subscribe-button, .success-sign-up-section .dismiss-button{
     background-color: rgb(36, 39, 66);
     color: white;
     width: auto;
@@ -92,18 +90,50 @@ body {
     cursor: pointer;
 }
 
-/*.sign-up-section .img-sign-up svg{
-    max-width: auto!important;
-    max-height: auto!important;
-}*/
+.sign-up-section .img-sign-up{
+    padding-left: inherit;
+}
 
-/*.success-sign-up-section{
-    
-}*/
+.success-sign-up-section{
+    width: 425px;
+    height: 450px;
+    padding: 40px;
+}
 
+.success-sign-up-section h1{
+    font-weight: 700;
+    margin: 30px 0px 20px 0px;
+}
 
+.success-sign-up-section p{
+    font-size: 14px;
+    margin: 0px 0px 20px 0px;
+}
 
+.success-sign-up-section .email-ingresado{
+    font-weight: 700;
+}
 
+@media (max-width: 576px){
+    body {
+        background-color: white!important;
+    }
+
+    .newsletter{
+        background: none;
+        color: rgb(36, 39, 66);
+    }
+
+    .success-sign-up-section{
+        height: 100vh;
+        display: grid;
+        align-content: space-between;
+    }
+
+    .success-sign-up-section div{
+        margin-top: 100px;
+    }
+}
 
 
 .attribution {
