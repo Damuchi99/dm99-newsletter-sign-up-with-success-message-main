@@ -1,5 +1,8 @@
 .success-message {
     margin: 100px 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .success-message-info {
@@ -32,4 +35,27 @@
     margin-top: 10px;
     cursor: pointer;
     margin-top: 150px;
+}
+
+@media(min-width: 768px){
+    .success-message {
+        padding: 50px;
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        margin: 30px;
+    }
+
+    .success-message-info {
+        margin-top: 0px;
+    }
+
+    .success-message-info .dismiss-button{
+        margin-top: 20px;
+    }
+
+    .success-message-info h1 {
+        margin-top: 20px;
+        font-size: 48px;
+    }
 }
