@@ -7,8 +7,13 @@
     font-size: 40px;
 }
 
-.sign-up-img {
+.sign-up-mobile-img{
     display: flex;
+    justify-content: center;
+}
+
+.sign-up-desktop-img{
+    display: none;
     justify-content: center;
 }
 
@@ -26,7 +31,7 @@
     margin-left: 10px;
 }
 
-.sign-up-section .sign-up-info .formulario{
+.sign-up-info .formulario{
     margin-top: 40px;
 }
 
@@ -38,10 +43,10 @@
 
 .sign-up-info .formulario .form-control{
     height: 50px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
-.sign-up-section .sign-up-info .subscribe-button{
+.sign-up-info .subscribe-button{
     background-color: rgb(36, 39, 66);
     color: white;
     width: auto;
@@ -53,4 +58,52 @@
     height: 60px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+@media(min-width: 768px){
+    .sign-up-form {
+        padding: 20px;
+        border-radius: 20px;
+        width: 700px;
+        height: 500px;
+    }
+
+    .sign-up-info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .sign-up-mobile-img{
+        display: none;
+        justify-content: center;
+    }
+    
+    .sign-up-desktop-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sign-up-info dl{
+        margin-top: 0px;
+    }
+
+    .sign-up-info p, .sign-up-info dt{
+        font-size: 12px;
+    }
+
+    .sign-up-info .formulario{
+        margin-top: 0px;
+    }
+
+    .sign-up-info .formulario .form-control{
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .sign-up-info .subscribe-button{
+        font-size: 14px;
+        height: 50px;
+        margin-top: 0px;
+    }
 }

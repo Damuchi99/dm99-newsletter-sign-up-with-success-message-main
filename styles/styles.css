@@ -10,7 +10,7 @@
     padding: 0px;
 }
 
-/*body {
+body {
     width: 100%!important;
     height: 100vh!important;
     display: flex;
@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255)!important;
-}*/
+}
 
 .attribution {
     font-size: 11px;
@@ -26,4 +26,18 @@
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+section{
+    background-color: white;
+}
+
+@media(min-width: 768px){
+    body{
+        background-color: rgb(36, 39, 66)!important;
+    }
+
+    section {
+        display: flex;
+    }
 }
