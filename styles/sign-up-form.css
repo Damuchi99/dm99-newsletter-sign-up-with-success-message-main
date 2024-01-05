@@ -32,13 +32,19 @@
 }
 
 .sign-up-info .formulario{
-    margin-top: 40px;
+    margin: 40px 0px 15px 0px;
 }
 
 .sign-up-info .formulario .form-label{
     font-weight: 700;
     font-size: 12px;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-info .formulario .form-label .error-text{
+    color: rgb(255, 87, 87);
 }
 
 .sign-up-info .formulario .form-control{
