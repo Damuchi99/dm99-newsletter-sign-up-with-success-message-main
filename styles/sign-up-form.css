@@ -1,0 +1,120 @@
+.sign-up-info {
+    margin: 30px;
+}
+
+.sign-up-info h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sign-up-mobile-img{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-desktop-img{
+    display: none;
+    justify-content: center;
+}
+
+.sign-up-info dt{
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.sign-up-info dt span{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sign-up-info .formulario{
+    margin: 40px 0px 15px 0px;
+}
+
+.sign-up-info .formulario .form-label{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-info .formulario .form-label .error-text{
+    color: rgb(255, 87, 87);
+}
+
+.sign-up-info .formulario .form-control{
+    height: 50px;
+    border-radius: 5px;
+}
+
+.subscribe-button{
+    background: rgb(36, 39, 66);
+    color: white;
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover{
+    background: linear-gradient(to right, rgb(255, 84, 120), rgb(255, 104, 59));
+    box-shadow: 0 8px 16px 0 rgb(255, 104, 59, 0.5), 0 6px 20px 0 rgb(255, 104, 59, 0.5);
+}
+
+@media(min-width: 768px){
+    .sign-up-form {
+        padding: 20px;
+        border-radius: 20px;
+        width: 700px;
+        height: 500px;
+    }
+
+    .sign-up-info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .sign-up-mobile-img{
+        display: none;
+        justify-content: center;
+    }
+    
+    .sign-up-desktop-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sign-up-info dl{
+        margin-top: 0px;
+    }
+
+    .sign-up-info p, .sign-up-info dt{
+        font-size: 12px;
+    }
+
+    .sign-up-info .formulario{
+        margin-top: 0px;
+    }
+
+    .sign-up-info .formulario .form-control{
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .sign-up-info .subscribe-button{
+        font-size: 14px;
+        height: 50px;
+        margin-top: 0px;
+    }
+}

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@import "sign-up-form.css";
+@import "success-message.css";
+
 *{
     font-family: "Roboto";
     box-sizing: border-box;
@@ -14,132 +17,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(54, 56, 78)!important;
+    background-color: rgb(255, 255, 255)!important;
 }
-
-.newsletter{
-    border-radius: 30px;
-    background: white;
-    margin: 30px;
-    color: rgb(36, 39, 66);
-}
-
-.row{
-    align-items: center;
-}
-
-.sign-up-section{
-    width: 850px;
-    height: 550px;
-    padding: 20px;
-}
-
-.sign-up-section .sign-up-info{
-    padding: 30px 0px 30px 30px;
-}
-
-.sign-up-section .sign-up-info h1{
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.sign-up-section .sign-up-info p{
-    font-size: 16px;
-}
-
-.sign-up-section .sign-up-info dt{
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    margin: 10px 0px;
-}
-
-.sign-up-section .sign-up-info dt span{
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-
-.sign-up-section .sign-up-info .formulario{
-    margin-top: 40px;
-}
-
-.sign-up-section .sign-up-info .formulario .form-label{
-    font-weight: 700;
-    font-size: 12px;
-    margin-bottom: 5px;
-}
-
-.sign-up-section .sign-up-info .formulario .form-control{
-    height: 50px;
-    border-radius: 10px;
-}
-
-.sign-up-section .sign-up-info .subscribe-button, .success-sign-up-section .dismiss-button{
-    background-color: rgb(36, 39, 66);
-    color: white;
-    width: auto;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    height: 60px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.sign-up-section .img-sign-up{
-    padding-left: inherit;
-}
-
-.success-sign-up-section{
-    width: 425px;
-    height: 450px;
-    padding: 40px;
-}
-
-.success-sign-up-section h1{
-    font-weight: 700;
-    margin: 30px 0px 20px 0px;
-}
-
-.success-sign-up-section p{
-    font-size: 14px;
-    margin: 0px 0px 20px 0px;
-}
-
-.success-sign-up-section .email-ingresado{
-    font-weight: 700;
-}
-
-@media (max-width: 576px){
-    body {
-        background-color: white!important;
-    }
-
-    .newsletter{
-        background: none;
-        color: rgb(36, 39, 66);
-    }
-
-    .success-sign-up-section{
-        height: 100vh;
-        display: grid;
-        align-content: space-between;
-    }
-
-    .success-sign-up-section div{
-        margin-top: 100px;
-    }
-}
-
 
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+section{
+    background-color: white;
+}
+
+@media(min-width: 768px){
+    body{
+        background-color: rgb(36, 39, 66)!important;
+    }
+
+    section {
+        display: flex;
+    }
+
+    .attribution {
+        color: white;
+    }
 }

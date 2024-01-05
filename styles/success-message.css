@@ -1,0 +1,67 @@
+.success-message {
+    margin: 100px 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+.success-message-info {
+    margin-top: 50px;
+}
+
+.success-message-info h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.success-message-info p {
+    margin-top: 30px;
+}
+
+.success-message-info .submitted-email {
+    font-weight: 700;
+}
+
+.success-message-info .dismiss-button{
+    background-color: rgb(36, 39, 66);
+    color: white;
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.dismiss-button:hover{
+    background: linear-gradient(to right, rgb(255, 84, 120), rgb(255, 104, 59));
+    box-shadow: 0 8px 16px 0 rgb(255, 104, 59, 0.5), 0 6px 20px 0 rgb(255, 104, 59, 0.5);
+}
+
+@media(min-width: 768px){
+    .success-message {
+        padding: 50px;
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        margin: 30px;
+    }
+
+    .success-message-info {
+        margin-top: 0px;
+    }
+
+    .success-message-info .dismiss-button{
+        margin-top: 20px;
+    }
+
+    .success-message-info h1 {
+        margin-top: 20px;
+        font-size: 48px;
+    }
+}
