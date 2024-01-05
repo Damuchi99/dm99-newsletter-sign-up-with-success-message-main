@@ -37,6 +37,11 @@
     margin-top: 150px;
 }
 
+.dismiss-button:hover{
+    background: linear-gradient(to right, rgb(255, 84, 120), rgb(255, 104, 59));
+    box-shadow: 0 8px 16px 0 rgb(255, 104, 59, 0.5), 0 6px 20px 0 rgb(255, 104, 59, 0.5);
+}
+
 @media(min-width: 768px){
     .success-message {
         padding: 50px;
